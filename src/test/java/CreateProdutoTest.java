@@ -12,6 +12,7 @@ public class CreateProdutoTest {
         Produto produto = new Produto("Teste","Teste","sssssss",3.50,1);
         ProdutoDAO dao = new ProdutoDAO();
         dao.createProduto(produto);
+        System.out.println(produto);
 
 
     }
